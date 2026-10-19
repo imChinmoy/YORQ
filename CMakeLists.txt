@@ -13,6 +13,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(yorq_core
     src/core/record.cpp
+    src/storage/wal.cpp
 )
 
 target_include_directories(yorq_core
